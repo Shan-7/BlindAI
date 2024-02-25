@@ -10,7 +10,7 @@ import google.generativeai as genai
 pytesseract.pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'
 
 # Configure the generative AI package with your API key
-genai.configure(api_key="AIzaSyCq200-3L_QK4peqhN8zmD6Mb67gJmfprw")
+genai.configure(api_key="Use your API key")
 
 # Set up the model with generation configuration and safety settings
 generation_config = {
